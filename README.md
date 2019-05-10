@@ -29,5 +29,5 @@ Start by going through Dribbble or Pinterest to get ideas on the designs
 
 
 This Design Should do perfectly. 
-<i>Full credit on the design goes to _Jan Van Echelpoel_ [https://innovationwall.io/]()</i>
+<i>Full credit on the design goes to **Jan Van Echelpoel**.<br>[https://innovationwall.io/](https://innovationwall.io/)</i>
 <img src="IMG/Design.png">
