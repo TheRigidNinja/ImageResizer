@@ -13,7 +13,7 @@ Make an Image resize Tool with Nodejs That can read a single image file or folde
 <ol>
   <li> Ability to resize all images in a folder </li>
   <li> One  page web app containing all operations necessary</li> 
-  <li> Needs to be lightening fast = No fansy animations </li>
+  <li> Needs to be lightening fast = No fancy animations </li>
 </ol>
 
 
