@@ -28,6 +28,6 @@ Make an Image resize Tool with Nodejs That can read a single image file or folde
 Start by going through Dribbble or Pinterest to get ideas on the designs 
 
 
-This Design Should do perfectly. <br><br>
+This Design / Theme Should do perfectly. <br><br>
 <i>Full credit on the design goes to **Jan Van Echelpoel**.<br>[https://innovationwall.io/](https://innovationwall.io/)</i><br><br>
 <img src="IMG/Design.png">
