@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: auto;
+  max-height: 300px;
+}
+
+.uploadElm {
+  margin-top: 40px;
+}
+
+.btnGroup {
+  position: fixed;
+  z-index: 2;
+  top: 5px;
+  left: calc(50% - 100px);
+}
+
+.btnGroup button {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-box-shadow: 0px 2px 5px rgba(255, 8, 110, 0.2);
+          box-shadow: 0px 2px 5px rgba(255, 8, 110, 0.2);
+  border-radius: 30px;
+  background-color: #FF086E;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  margin-left: 20px;
+}
+
+.downloadBTN:hover {
+  -webkit-box-shadow: 0px 5px 15px rgba(255, 8, 110, 0.3);
+          box-shadow: 0px 5px 15px rgba(255, 8, 110, 0.3);
+}
+
+.removeImages {
+  background: #02194c !important;
+  -webkit-box-shadow: 0px 2px 5px rgba(2, 25, 76, 0.2) !important;
+          box-shadow: 0px 2px 5px rgba(2, 25, 76, 0.2) !important;
+}
+
+.removeImages:hover {
+  -webkit-box-shadow: 0px 5px 15px rgba(2, 25, 76, 0.3) !important;
+          box-shadow: 0px 5px 15px rgba(2, 25, 76, 0.3) !important;
+}
+
+.removeImages i {
+  padding-left: 10px;
+}
+
+table {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+@media (max-width: 992px) {
+  .headingText {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 765px) {
+  .headingText {
+    font-size: 1.5rem;
+  }
+}
