@@ -25,21 +25,31 @@ class App extends Component {
   render() {
     return (
       <section className="container">
+
         <div className="jumbotron text-center">
           <span className="display-4 headingText">
             Uploading Single or Multiple Images to Resize or Change Quality
           </span>
 
           <div className="input-group uploadElm">
+          <div class="custom-file">
             <input
-              className="form-control"
+              className="form-control custom-file-input"
+              id="inputGroupFile02"
               type="file"
               name="pic"
               accept="image/*"
               multiple
               onInput={() => this.handleImageData()}
             />
+            <label class="custom-file-label" for="inputGroupFile02">Choose Images</label>
+            </div>
+
+            
           </div>
+          
+          <input type="range" min="0" max="100" step="1" defaultValue="0"/>
+          <input type="range" min="0" max="100" step="1" defaultValue="0"/>
         </div>
 
         <table className="table table-hover">
@@ -48,7 +58,7 @@ class App extends Component {
           </tbody>
         </table>
 
-        <div className="btnGroup">
+        {/* <div className="btnGroup">
           <button className="removeImages">
             {Object.keys(this.state.Images).length}
             <i className="fas fa-times" />
@@ -56,7 +66,7 @@ class App extends Component {
           <button className="downloadBTN">
             <i className="fas fa-download" /> Download
           </button>
-        </div>
+        </div> */}
       </section>
     );
   }
